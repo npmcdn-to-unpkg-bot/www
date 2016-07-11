@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no"/>
+    
+    <title>Home</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/rd-mailform.css" rel="stylesheet">
+    <link href="css/rd-subscribeform.css" rel="stylesheet">
+    <link href="fonts/styles.css" rel="stylesheet">
+	<style type="text/css">
+	 /* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #f2f2f2;
+    color: #444;
+    cursor: pointer;
+    padding: 9px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	margin-top: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    
+    background-color: white;
+    display: none;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block !important;
+}
+    </style>
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!--JS-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/device.min.js"></script>
+</head>
+<body>
+<div class="page text-center">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header class="mod-1">
+        <div id="stuck_container" class="stuck_container">
+            <nav class="navbar navbar-default navbar-static-top">
+                <div class="navbar-header center-xs">
+                    <div class="brand">
+                        <a href="./">
+                            <img src="images/brand.png" class="img-wide" alt=""/>
+                        </a>
+                    </div>
+                </div>
+                <div class="container container-wide">
+                    <ul class="navbar-nav sf-menu navbar-center" data-type="navbar">
+                        
+                        <li class="dropdown">
+                            <a href="about.html">About</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">CAB</a></li>
+                                <li><a href="#">Banga Sanmelan</a></li>
+                                <li><a href="#">NABC 2017</a></li>
+                                <li><a href="#">Theme of NABC2017</a></li>
+                                <li><a href="#">Message from Chairperson</a></li>
+                                <li><a href="#">Managing Committee</a></li>
+                                <li><a href="#">Partner Organizations</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="team.html">Register</a>
+                            <ul class="dropdown-menu">
+                            <li class="dropdown"><a href="#">Registration Overview <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+</a>
+                            	<ul class="dropdown-menu">
+                                	<li><a href="#">Standard</a></li>
+                                	<li><a href="#">Donor</a></li>
+                                	<li><a href="#">Sponsor</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Cancellation</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Sponsors</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Sponsor Registration overview</a></li>
+                                <li><a href="#">Advertisement Opportunities</a></li>
+                                <li><a href="#">Sponsor Registration</a></li>
+                                <li><a href="#">List of Sponsors</a></li>
+                                <li><a href="#">Download Form</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Program</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Pre Program Information</a></li>
+                                <li><a href="#">Inaugural</a></li>
+                                <li><a href="#">Cultural Programs</a></li>
+                                <li><a href="#">Sunday Superstar Program</a></li>
+                                <li><a href="#">Business Forum</a></li>
+                                <li><a href="#">Literary Seminar</a></li>
+                                <li><a href="#">Medical Forum</a></li>
+                                <li><a href="#">Film Festival</a></li>
+                                <li><a href="#">Drama & Stage Show</a></li>
+                                
+                                <li><a href="#">Art and Painting</a></li>
+                                <li><a href="#">Reunion / Adda</a></li>
+                                <li><a href="#">NABC Idol</a></li>
+                                <li><a href="#">NextGen</a></li>
+                                <li><a href="#">Awards Ceremony</a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Silicon Valley</a>
+                            <ul class="dropdown-menu dropdown-menu--skin-1">
+                                <li><a href="news-1.html">NABC 2017 Venue</a></li>
+                                <li><a href="news-2.html">Fun Facts About Silicon Valley</a></li>
+                                <li><a href="news-2.html">NABC 2017 Silicon Valley Events </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Stall & Exhibitors</a>
+                            <ul class="dropdown-menu dropdown-menu--skin-1">
+                                <li><a href="news-1.html">Exhibition Overview</a></li>
+                                <li><a href="news-2.html">List of Exhibitors</a></li>
+                                <li><a href="news-2.html">Download Form </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Get Involved</a>
+                            <ul class="dropdown-menu dropdown-menu--skin-1">
+                                <li><a href="news-1.html">Volunteer Sign Up</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-part">
+                    <ul class="inline-list">
+                            <li><a class="icon icon-primary icon-md fa-facebook" href="#"></a></li>
+                            <li><a class="icon icon-primary icon-md fa-twitter" href="#"></a></li>
+                            <li><a class="icon icon-primary icon-md fa-youtube" href="#"></a></li>
+                        </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <!-- Swiper -->
+        <div class="swiper-container swiper-slider" data-height="510px" style="min-height:510px">
+            <div class="swiper-wrapper shadow-light">
+                <div class="swiper-slide" data-slide-bg="images/page-1_slide01.jpg">
+                    <div class="swiper-slide-caption">
+                        <div class="container container-wide offset-1">
+                            
+                            <a href="#" class="btn btn-primary btn-md">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-slide-bg="images/page-1_slide02.jpg">
+                    <div class="swiper-slide-caption">
+                        <div class="container container-wide">
+                            <a href="#.html" class="btn btn-primary btn-md">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide img-mobile-shift" data-slide-bg="images/page-1_slide03.jpg">
+                    <div class="swiper-slide-caption">
+                        <div class="container container-wide offset-2">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide img-mobile-shift" data-slide-bg="images/page-1_slide04.jpg">
+                    <div class="swiper-slide-caption">
+                        <div class="container container-wide offset-2">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev">
+
+</div>
+<div class="swiper-button-next">
+
+</div>
+            </div>
+
+            <!-- Swiper Navigation -->
+           
+        </div>
+        <!-- END Swiper -->
+
+        <!-- Welcome  -->
+        
+        <!-- END Welcome -->
+
+        <!-- Products -->
+        <section>
+            <div class="row row-no-gutter container-wide">
+                
+                
+                     <div class="col-sm-3 center-xs wow fadeInLeft animated">
+                        <img src="images/mosice1.jpg"  alt="">
+                        <img src="images/mosice5.jpg"  alt="">
+                        
+                    </div>
+                     <div class="col-sm-3 center-xs wow fadeInLeft animated">
+                        <img src="images/mosice2.jpg"  alt="">
+                        <img src="images/mosice6.jpg"  alt="">
+                        
+                    </div>
+                    <div class="col-sm-3 center-xs wow fadeInLeft animated">
+                        <img src="images/mosice3.jpg"  alt="">
+                        <img src="images/mosice7.jpg"  alt="">
+                        
+                    </div>
+                    <div class="col-sm-3 center-xs wow fadeInLeft animated">
+                        <img src="images/mosice4.jpg"  alt="">
+                        <img src="images/mosice8.jpg"  alt="">
+                        
+                    </div>
+                    <div class="clearfix"></div>
+                   
+                    
+        		
+            </div>
+        </section>
+        <!-- END Products-->
+
+        <!-- Parallax -->
+        <section class="">
+            <div class="row row-no-gutter container-wide">
+                <div class="col-sm-12">
+                     <button class="accordion">About NABC 2017<i class="fa fa-sort-desc" aria-hidden="true"></i>
+
+</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac arcu libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium eros ut dolor sollicitudin, id bibendum ante porttitor. Nunc eleifend elementum purus at molestie. Sed sit amet tristique nisi. Sed quis enim id dui cursus viverra. Proin accumsan tempus lorem, eu convallis eros fringilla ornare. Integer aliquam, lorem sed facilisis porta, dolor risus pretium nisl, eget luctus nisl tellus eget urna. Suspendisse eget efficitur justo. <br><br>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac arcu libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium eros ut dolor sollicitudin, id bibendum ante porttitor. Nunc eleifend elementum purus at molestie. Sed sit amet tristique nisi. Sed quis enim id dui cursus viverra. Proin accumsan tempus lorem, eu convallis eros fringilla ornare. Integer aliquam, lorem sed facilisis porta, dolor risus pretium nisl, eget luctus nisl tellus eget urna. Suspendisse eget efficitur justo. </p>
+</div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="well-1 bg-primary">
+            <div class="container container-wide relative">
+                <h3>Celebrities of our Concert</h3>
+                <!-- Owl Carousel -->
+                <div class="owl-carousel text-left center-xs"
+                     data-items="1"
+                     data-nav="true"
+                     data-margin="0"
+                     data-sm-items="2"
+                     data-md-items="4"
+                     data-sm-stage-padding="0"
+                     data-sm-margin="30"
+                     data-autoplay="true"
+                        >
+                    <div class="owl-item">
+                        <div class="post">
+                            <div class="img_overlay">
+                                <img src="images/celebrity1.jpg" alt=""/>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="post">
+                            <div class="img_overlay">
+                                <img src="images/celebrity2.jpg" alt=""/>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="post">
+                            <div class="img_overlay">
+                                <img src="images/celebrity3.jpg" alt=""/>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                     <div class="owl-item">
+                        <div class="post">
+                            <div class="img_overlay">
+                                <img src="images/celebrity4.jpg" alt=""/>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- END Owl Carousel -->
+            </div>
+        </section>
+        
+
+        
+        <section>
+            <div class="row row-no-gutter container-wide">
+                
+                
+                     <div class="col-sm-6 center-xs wow fadeInLeft animated animated" style="visibility: visible; animation-name: fadeInLeft;">
+                        <a href="#"><img alt="" src="images/video-bg.jpg"></a>
+                        
+                        
+                    </div>
+                     <div class="col-sm-6 center-xs wow fadeInLeft animated animated" style="visibility: visible; animation-name: fadeInRight;">
+                        <a href="#"><img alt="" src="images/tour-bg.jpg"></a>
+                        
+                        
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                   
+                    
+        		
+            </div>
+        </section>
+        <section class="well-1 bg-primary">
+            <div class="container container-wide relative">
+                
+                <!-- Owl Carousel -->
+                <div class="owl-carousel text-left center-xs"
+                     data-items="1"
+                     data-nav="true"
+                     data-margin="0"
+                     data-sm-items="2"
+                     data-md-items="5"
+                     data-sm-stage-padding="0"
+                     data-sm-margin="30"
+                     data-autoplay="true"
+                        >
+                    <div class="owl-item">
+                        <div class="post">
+                            <div class="img_overlay">
+                                <img src="images/spon_1.jpg" alt=""/>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="post">
+                            <div class="img_overlay">
+                                <img src="images/spon_2.jpg" alt=""/>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="post">
+                            <div class="img_overlay">
+                                <img src="images/spon_3.jpg" alt=""/>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                     <div class="owl-item">
+                        <div class="post">
+                            <div class="img_overlay">
+                                <img src="images/spon_4.jpg" alt=""/>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="post">
+                            <div class="img_overlay">
+                                <img src="images/spon_5.jpg" alt=""/>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- END Owl Carousel -->
+            </div>
+        </section>
+        <!-- END Our clients-->
+
+        
+        <section class="well-6 bg-secondary text-left center-xs footer-bg">
+            <div class="container container-wide">
+                <div class="row flow-offset">
+                    <div class="col-sm-3 wow fadeInUp">
+                        <h6 class="text-uppercase ls-20">ABOUT</h6>
+                        <ul class="" data-type="">
+                        
+                        <li class="">
+                            <a href="about.html">About</a>
+                            <ul class="">
+                                <li><a href="#">CAB</a></li>
+                                <li><a href="#">Banga Sanmelan</a></li>
+                                <li><a href="#">NABC 2017</a></li>
+                                <li><a href="#">Theme of NABC2017</a></li>
+                                <li><a href="#">Message from Chairperson</a></li>
+                                <li><a href="#">Managing Committee</a></li>
+                                <li><a href="#">Partner Organizations</a></li>
+                                
+                            </ul>
+                        </li>
+                        </ul>
+                        <h6 class="text-uppercase ls-20">Silicon Valley</h6>
+                        <ul><li class="">
+                            <a href="#">Silicon Valley</a>
+                            <ul class="">
+                                <li><a href="news-1.html">NABC 2017 Venue</a></li>
+                                <li><a href="news-2.html">Fun Facts About Silicon Valley</a></li>
+                                <li><a href="news-2.html">NABC 2017 Silicon Valley Events </a></li>
+                            </ul>
+                        </li></ul>
+                    </div>
+                    <div class="col-sm-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6 class="text-uppercase ls-20">Register</h6>
+                        <ul><li class="">
+                            <a href="team.html">Register</a>
+                            <ul class="u">
+                            <li class=""><a href="#">Registration Overview 
+</a>
+                            	<ul class="">
+                                	<li><a href="#">Standard</a></li>
+                                	<li><a href="#">Donor</a></li>
+                                	<li><a href="#">Sponsor</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Cancellation</a></li>
+                            </ul>
+                        </li></ul>
+                        <h6 class="text-uppercase ls-20">Stall & Exhibitors</h6>
+                        <ul><li class="">
+                            <a href="#">Stall & Exhibitors</a>
+                            <ul class="">
+                                <li><a href="news-1.html">Exhibition Overview</a></li>
+                                <li><a href="news-2.html">List of Exhibitors</a></li>
+                                <li><a href="news-2.html">Download Form </a></li>
+                            </ul>
+                        </li></ul>
+                    </div>
+                     <div class="col-sm-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6 class="text-uppercase ls-20">Sponsors</h6>
+                        <ul><li class="">
+                            <a href="#">Sponsors</a>
+                            <ul class="">
+                                <li><a href="#">Sponsor Registration overview</a></li>
+                                <li><a href="#">Advertisement Opportunities</a></li>
+                                <li><a href="#">Sponsor Registration</a></li>
+                                <li><a href="#">List of Sponsors</a></li>
+                                <li><a href="#">Download Form</a></li>
+                                
+                            </ul>
+                        </li></ul>
+                        <h6 class="text-uppercase ls-20">Get Involved</h6>
+                        <ul><li class="">
+                            <a href="#">Get Involved</a>
+                            <ul class="">
+                                <li><a href="news-1.html">Volunteer Sign Up</a></li>
+                                
+                            </ul>
+                        </li></ul>
+                    </div>
+                    <div class="col-sm-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6 class="text-uppercase ls-20">Program</h6>
+                        <ul><li class="">
+                            <a href="#">Program</a>
+                            <ul class="">
+                                <li><a href="#">Pre Program Information</a></li>
+                                <li><a href="#">Inaugural</a></li>
+                                <li><a href="#">Cultural Programs</a></li>
+                                <li><a href="#">Sunday Superstar Program</a></li>
+                                <li><a href="#">Business Forum</a></li>
+                                <li><a href="#">Literary Seminar</a></li>
+                                <li><a href="#">Medical Forum</a></li>
+                                <li><a href="#">Film Festival</a></li>
+                                <li><a href="#">Drama & Stage Show</a></li>
+                                
+                                <li><a href="#">Art and Painting</a></li>
+                                <li><a href="#">Reunion / Adda</a></li>
+                                <li><a href="#">NABC Idol</a></li>
+                                <li><a href="#">NextGen</a></li>
+                                <li><a href="#">Awards Ceremony</a></li>
+                                
+                                
+                            </ul>
+                        </li></ul>
+                    </div>
+                    
+                   
+                    
+                </div>
+            </div>
+        </section>
+        <!-- END Contact info-->
+
+    </main>
+
+    <!--========================================================
+                            FOOTER
+    =========================================================-->
+    <footer>
+        <section class="text-left">
+            <div class="container container-wide center-sm">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="rights">
+                            Copyright &#169; <span id="copyright-year"></span>&nbsp;
+                            NABC2017
+                            <!-- {%FOOTER_LINK} -->
+                        </p>
+                        <p style="float: right; padding: 0px; margin: 0px; text-align: right;">Design & develop by PSKS Web Services</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tm-scripts.js"></script>
+    <!-- </script> -->
+    <!-- begin olark code -->
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>   
+</body>
+</html>

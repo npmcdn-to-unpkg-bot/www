@@ -1,0 +1,72 @@
+[18-Jun-2016 23:32:18 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/beta/sites/all/modules/custom/core_overrides/core_overrides.module on line 1989
+[19-Jun-2016 02:25:59 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/nabc/public_html/beta/sites/all/modules/custom/core_overrides/core_overrides.module on line 957
+[19-Jun-2016 02:26:00 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/nabc/public_html/beta/sites/all/modules/custom/core_overrides/core_overrides.module on line 1298
+[19-Jun-2016 02:26:10 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/nabc/public_html/beta/sites/all/modules/custom/core_overrides/core_overrides.module on line 1298
+[23-Jun-2016 13:54:59 Asia/Kolkata] PHP Fatal error:  Unsupported operand types in /home/nabc/public_html/includes/form.inc on line 1814
+[23-Jun-2016 13:57:07 Asia/Kolkata] PHP Fatal error:  Unsupported operand types in /home/nabc/public_html/includes/form.inc on line 1814
+[26-Jun-2016 00:59:10 Asia/Kolkata] PHP Warning:  Unterminated comment starting line 6842 in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 6842
+[26-Jun-2016 00:59:10 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 6878
+[26-Jun-2016 01:02:12 Asia/Kolkata] PHP Fatal error:  Call to undefined function core_overrides_get_current_url_path_alias() in /home/nabc/public_html/sites/all/themes/nabc2017/templates/page.tpl.php on line 77
+[26-Jun-2016 01:24:50 Asia/Kolkata] PHP Fatal error:  Only variables can be passed by reference in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 3804
+[26-Jun-2016 01:24:55 Asia/Kolkata] PHP Fatal error:  Only variables can be passed by reference in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 3804
+[26-Jun-2016 01:25:33 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 3004
+[26-Jun-2016 09:48:10 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 1687
+[26-Jun-2016 09:48:12 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 3767
+[26-Jun-2016 10:01:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '!' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 4542
+[26-Jun-2016 10:01:26 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '!' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 4542
+[26-Jun-2016 10:01:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '!' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 4542
+[27-Jun-2016 01:01:42 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ':' in /home/nabc/public_html/sites/all/themes/nabc2017/templates/node--register.tpl.php on line 222
+[27-Jun-2016 01:02:50 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ':' in /home/nabc/public_html/sites/all/themes/nabc2017/templates/node--register.tpl.php on line 222
+[28-Jun-2016 22:05:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home/nabc/public_html/sites/all/themes/nabc2017/templates/node--register.tpl.php on line 220
+[28-Jun-2016 22:05:57 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home/nabc/public_html/sites/all/themes/nabc2017/templates/node--register.tpl.php on line 220
+[28-Jun-2016 22:06:01 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home/nabc/public_html/sites/all/themes/nabc2017/templates/node--register.tpl.php on line 220
+[29-Jun-2016 01:15:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/themes/nabc2017/templates/node--sponsor-registration.tpl.php on line 372
+[29-Jun-2016 01:18:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/themes/nabc2017/templates/node--sponsor-registration.tpl.php on line 372
+[29-Jun-2016 02:06:43 Asia/Kolkata] PHP Fatal error:  Call to a member function set_display() on a non-object in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 8614
+[29-Jun-2016 00:33:57 America/Chicago] PHP Warning:  POST Content-Length of 8818531 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[29-Jun-2016 00:34:40 America/Chicago] PHP Warning:  POST Content-Length of 8818531 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[29-Jun-2016 11:57:50 Asia/Kolkata] PHP Fatal error:  Call to undefined function core_overrides_get_current_url_path_alias() in /home/nabc/public_html/sites/all/themes/nabc2017/templates/html.tpl.php on line 45
+[29-Jun-2016 11:57:54 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 5974
+[29-Jun-2016 12:02:21 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 2758
+[29-Jun-2016 12:02:56 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 3107
+[29-Jun-2016 12:06:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 345
+[29-Jun-2016 12:15:44 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 6640
+[29-Jun-2016 12:16:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''field_las' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 2431
+[29-Jun-2016 12:22:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 345
+[29-Jun-2016 12:25:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 5605
+[29-Jun-2016 12:26:24 Asia/Kolkata] PHP Warning:  Unterminated comment starting line 4173 in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 4173
+[29-Jun-2016 12:26:24 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 4183
+[29-Jun-2016 12:28:39 Asia/Kolkata] PHP Warning:  Unterminated comment starting line 3483 in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 3483
+[29-Jun-2016 12:28:39 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 3484
+[29-Jun-2016 12:28:41 Asia/Kolkata] PHP Warning:  Unterminated comment starting line 7996 in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 7996
+[29-Jun-2016 12:28:42 Asia/Kolkata] PHP Fatal error:  Call to undefined function core_overrides_get_current_url_path_alias() in /home/nabc/public_html/sites/all/themes/nabc2017/templates/page.tpl.php on line 77
+[29-Jun-2016 12:28:44 Asia/Kolkata] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 169
+[29-Jun-2016 12:30:42 Asia/Kolkata] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 170
+[29-Jun-2016 12:30:45 Asia/Kolkata] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 170
+[29-Jun-2016 12:30:49 Asia/Kolkata] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 170
+[29-Jun-2016 12:31:00 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 345
+[29-Jun-2016 12:32:21 Asia/Kolkata] PHP Warning:  Unterminated comment starting line 1738 in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 1738
+[29-Jun-2016 12:32:21 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 1747
+[29-Jun-2016 22:17:10 Asia/Kolkata] PHP Warning:  Unterminated comment starting line 7995 in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 7995
+[29-Jun-2016 22:17:11 Asia/Kolkata] PHP Fatal error:  Call to undefined function core_overrides_get_current_url_path_alias() in /home/nabc/public_html/sites/all/themes/nabc2017/templates/html.tpl.php on line 45
+[30-Jun-2016 01:51:01 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 990
+[30-Jun-2016 02:08:44 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 351
+[30-Jun-2016 02:19:18 Asia/Kolkata] PHP Fatal error:  Call to undefined function views_get_view() in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 9441
+[30-Jun-2016 22:17:26 Asia/Kolkata] PHP Warning:  Unterminated comment starting line 7655 in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 7655
+[30-Jun-2016 22:17:26 Asia/Kolkata] PHP Fatal error:  Call to undefined function core_overrides_get_current_url_path_alias() in /home/nabc/public_html/sites/all/themes/nabc2017/templates/page.tpl.php on line 77
+[30-Jun-2016 22:33:35 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 5199
+[30-Jun-2016 23:40:19 Asia/Kolkata] PHP Fatal error:  Call to undefined function core_overrides_get_current_url_path_alias() in /home/nabc/public_html/sites/all/themes/nabc2017/templates/html.tpl.php on line 45
+[30-Jun-2016 23:40:49 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 1509
+[30-Jun-2016 23:40:50 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 1509
+[30-Jun-2016 23:40:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 1509
+[30-Jun-2016 23:40:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 1509
+[30-Jun-2016 23:40:56 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 1509
+[30-Jun-2016 23:41:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 1509
+[30-Jun-2016 23:42:28 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 7270
+[30-Jun-2016 23:54:26 Asia/Kolkata] PHP Fatal error:  Call to undefined function core_overrides_get_current_url_path_alias() in /home/nabc/public_html/sites/all/themes/nabc2017/templates/page.tpl.php on line 77
+[01-Jul-2016 01:32:36 Asia/Kolkata] PHP Fatal error:  Call to undefined function core_overrides_membership_upgrade_form_validate() in /home/nabc/public_html/includes/form.inc on line 1519
+[30-Jun-2016 17:49:50 America/Chicago] PHP Warning:  POST Content-Length of 11722444 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[01-Jul-2016 23:26:10 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''value' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 351
+[02-Jul-2016 16:51:41 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 3719
+[02-Jul-2016 16:52:06 Asia/Kolkata] PHP Warning:  Unterminated comment starting line 3376 in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 3376
+[02-Jul-2016 16:52:06 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/nabc/public_html/sites/all/modules/custom/core_overrides/core_overrides.module on line 3378

@@ -1,0 +1,17 @@
+name = Weight EFQ
+description = A class extension of EntrityFieldQuery
+core = 7.x
+;php = 5.2
+;package = 
+;dependencies[] = weight
+;files[] = weight_efq.admin.inc
+;files[] = weight_efq.classes.inc
+;files[] = weight_efq.theme.inc
+;files[] = weight_efq.pages.inc
+
+; Information added by drupal.org packaging script on 2013-06-17
+version = "7.x-2.0"
+core = "7.x"
+project = "weight_efq"
+datestamp = "1371485751"
+

@@ -1,0 +1,27 @@
+name = NABC2017
+description = A flexible bootstrap 3.0 theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/rd-mailform.css
+stylesheets[all][] = css/rd-subscribeform.css
+stylesheets[all][] = fonts/styles.css
+
+scripts[] = js/jquery.min.2.2.2.js
+scripts[] = js/jquery-migrate-1.2.1.min.js
+scripts[] = js/device.min.js
+
+regions[header] = Header
+regions[header_bottom] = Help
+regions[content] = Content
+regions[page_middle] = Page middle
+regions[page_above_footer] = Page bottom
+regions[footer] = Footer
+
+; Information added by Drupal.org packaging script on 2016-05-14
+version = "7.43"
+project = "drupal"
+datestamp = "1456343506"
+

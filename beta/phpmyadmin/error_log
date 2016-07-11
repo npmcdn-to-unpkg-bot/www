@@ -1,0 +1,22 @@
+[21-Apr-2016 15:18:05 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/nabc/public_html/beta/phpmyadmin/libraries/sanitizing.lib.php on line 135
+[21-Apr-2016 15:19:47 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/nabc/public_html/beta/phpmyadmin/libraries/sanitizing.lib.php on line 135
+[21-Apr-2016 15:20:36 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/nabc/public_html/beta/phpmyadmin/libraries/sanitizing.lib.php on line 136
+[21-Apr-2016 15:21:04 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/nabc/public_html/beta/phpmyadmin/libraries/sanitizing.lib.php on line 136
+[22-Apr-2016 14:21:12 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/nabc/public_html/beta/phpmyadmin/libraries/sanitizing.lib.php on line 135
+[22-Apr-2016 14:21:18 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/nabc/public_html/beta/phpmyadmin/libraries/sanitizing.lib.php on line 135
+[22-Apr-2016 14:21:27 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/nabc/public_html/beta/phpmyadmin/libraries/sanitizing.lib.php on line 135
+[22-Apr-2016 14:21:50 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/nabc/public_html/beta/phpmyadmin/libraries/sanitizing.lib.php on line 135
+[05-Jul-2016 01:12:08 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 32 bytes) in /home/nabc/public_html/beta/phpmyadmin/libraries/dbi/DBIMysqli.php on line 289
+[05-Jul-2016 01:13:03 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3145728 bytes) in /home/nabc/public_html/beta/phpmyadmin/libraries/tcpdf/fonts/dejavusansb.php on line 14
+[05-Jul-2016 01:13:55 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3145728 bytes) in /home/nabc/public_html/beta/phpmyadmin/libraries/tcpdf/fonts/dejavusansb.php on line 14
+[05-Jul-2016 01:15:13 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3145728 bytes) in /home/nabc/public_html/beta/phpmyadmin/libraries/tcpdf/fonts/dejavusansb.php on line 14
+[05-Jul-2016 01:17:10 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3145728 bytes) in /home/nabc/public_html/beta/phpmyadmin/libraries/tcpdf/fonts/dejavusansb.php on line 14
+[05-Jul-2016 01:20:45 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 86 bytes) in /home/nabc/public_html/beta/phpmyadmin/libraries/dbi/DBIMysqli.php on line 289
+[05-Jul-2016 01:21:22 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 78 bytes) in /home/nabc/public_html/beta/phpmyadmin/libraries/dbi/DBIMysqli.php on line 289
+[05-Jul-2016 01:21:25 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 84 bytes) in /home/nabc/public_html/beta/phpmyadmin/libraries/dbi/DBIMysqli.php on line 289
+[05-Jul-2016 01:21:36 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 84 bytes) in /home/nabc/public_html/beta/phpmyadmin/libraries/dbi/DBIMysqli.php on line 289
+[05-Jul-2016 01:21:49 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 84 bytes) in /home/nabc/public_html/beta/phpmyadmin/libraries/dbi/DBIMysqli.php on line 289
+[05-Jul-2016 01:25:33 America/Chicago] PHP Strict Standards:  Only variables should be passed by reference in /home/nabc/public_html/beta/phpmyadmin/exportdb.php on line 12
+[05-Jul-2016 01:28:48 America/Chicago] PHP Strict Standards:  Only variables should be passed by reference in /home/nabc/public_html/beta/phpmyadmin/exportdb.php on line 13
+[05-Jul-2016 01:30:44 America/Chicago] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/nabc/public_html/beta/phpmyadmin/exportdb.php on line 13
+[05-Jul-2016 01:31:10 America/Chicago] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/nabc/public_html/beta/phpmyadmin/exportdb.php on line 13

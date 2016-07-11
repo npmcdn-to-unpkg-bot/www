@@ -1,0 +1,36 @@
+<?php
+class WeightEntityFieldQuery extends EntityFieldQuery {
+  /**
+   * apply some defaults to all instances of this object
+   */
+  public function __construct() {
+    $this
+      ->entityCondition('entity_type', 'node')
+      ->addTag('weight')
+      ;
+  }
+
+  /**
+   * set weight tag
+   */
+  public function weight() {
+    $this->addTag('weight');
+    return $this;
+  }
+
+  /**
+   * Unset weight tag
+   */
+  public function clearWeight() {
+    unset($this->tags['weight']);
+  }
+}
+
+/**
+ * Implements hook_query_TAG_alter().
+ */
+function weight_efq_query_weight_alter(QueryAlterableInterface $query) {
+  $query->join('weight_weights', 'w', 'node.nid = w.entity_id');
+  $query->fields('w', array('weight'));
+  $query->orderBy('w.weight', 'ASC');
+}

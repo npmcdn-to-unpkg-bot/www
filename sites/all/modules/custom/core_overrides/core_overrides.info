@@ -1,0 +1,10 @@
+name = Core Overrides
+description = Custom Module for NABC2017 By PSKS Web Services
+core = 7.x
+package = NABC 2017
+
+version = "7.x-1.0"
+core = "7.x"
+project = "core_overrides"
+datestamp = "1463212052"
+
