@@ -1,5 +1,0 @@
-{% extends '@nucleus/partials/particle.html.twig' %}
-
-{% block particle %}
-{{ (particle.filter ? gantry.platform.filter(particle.html) : particle.html)|html|raw }}
-{% endblock %}

@@ -1,7 +1,0 @@
-javascript:
-  -
-    location: 'https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.min.js'
-    inline: ''
-    in_footer: '1'
-    extra: {  }
-    name: Prettify
