@@ -305,7 +305,21 @@ global $base_url;
                           <?php /*<source type="video/mp4" src="<?php print $base_url.'/sites/default/files/video/NABC_Logo_Reveal-1.mp4';?>"/>
                         </video>
                         <span id="player1-mode"></span><?php */?>
-                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnabc2017%2Fvideos%2F266075003753300%2F&show_text=0&width=560" width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                        <!-- Load Facebook SDK for JavaScript -->
+                      <div id="facebook-video-embed-front" class="facebook-video-embed-front">
+                          <div id="fb-root"></div>
+                          <script>(function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+                            fjs.parentNode.insertBefore(js, fjs);
+                          }(document, 'script', 'facebook-jssdk'));</script>
+                        
+                          <!-- Your embedded video player code -->
+                          <div class="fb-video" data-href="https://facebook.com/nabc2017/videos/266075003753300/" data-width="560" data-show-text="false">
+                          </div>
+                      </div>
                      </div>
                      <div class="col-sm-6 center-xs wow fadeInLeft animated animated tour-bg" style="visibility: visible; animation-name: fadeInRight;">
                         <a href="<?php print url('silicon-valley/nabc2017-silicon-valley-events');?>"><!--<img alt="" src="<?php print $base_url.'/'.path_to_theme();?>/images/tour-bg.jpg">-->San Francisco Attraction</a>

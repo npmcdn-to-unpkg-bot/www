@@ -11,8 +11,10 @@ body {
   margin: 0;
 }
 .cms-body-text p img {
-  float: left;
-  margin: 10px 15px !important;
+  /*clear: none;
+  float: none;
+  margin: 10px 15px !important;*/
+  padding:5px;
 }
 swiper-container {
 	min-height: 510px;	
@@ -40,6 +42,9 @@ div#breadcrumb {
   text-transform: capitalize;
   width: 100%;
 }
+.facebook-video-embed-front {
+  min-height: 387px;
+}
 .payment-success .img-rounded {
   float: none;
   margin: 10px auto;
@@ -58,10 +63,10 @@ div#breadcrumb {
 div.messages{
 	text-align: center;	
 }
-.cms-body-text img {
+.cms-body-text .banner-image-cms-page img {
   clear: left;
   float: left;
-  margin: 15px;
+  margin: 6px;
 }
 .overlay_body{ opacity: 0.75;  background: #ffffff;  width: 100% !important;  height: 100% !important; z-index: 1031;  top: 0;  left: 0;  position:  fixed !important; }
 .overlay-logo{
@@ -161,6 +166,38 @@ div.messages{
 	text-transform: capitalize;
 }
 
+/*forum*/
+
+.col-sm-5.center-xs.sponsor-img {
+  padding: 0 4% !important;
+}
+.business-forum-sponsor > h2, .business-sponsor-options > h2 {
+  border-bottom: 2px solid #999;
+  margin-bottom: 29px;
+}
+.business-forum-sponsor {
+  text-align: center;
+}
+.business-forum-sponsor > img {
+  margin: 0 auto;
+  text-align: center;
+  width: 61%;
+  clear: both;
+}
+.plan-list > li {
+  float: left;
+  margin: 10px 1%;
+  width: 48%;
+}
+.info-header {
+  border-bottom: 2px solid;
+  margin-bottom: 15px;
+  padding: 0 97px 15px;
+  text-align: center;
+}
+.info-header > img {
+  float: left;
+}
 .owl-carousel.sponsor .owl-stage {
     height: 250px;
 }
@@ -562,7 +599,7 @@ table {
 .accordion.ui-accordion.ui-widget.ui-helper-reset {
   color: #ff7200;
   text-align: center;
-  font-family: MyriadPro-Regular;
+  font-family: MyriadPro-Regular, sans-serif;
   font-size: 36px;
 }
 td,
@@ -1981,6 +2018,9 @@ th {
 .banner-image-cms-page {
     width: 100% !important;
 }
+.facebook-video-embed-front {
+    min-height: inherit;
+}
 }
 /*==================  RD Parallax    ======================*/
 .parallax {
@@ -2398,7 +2438,7 @@ th {
 	background-size: cover;	
 	font-size: 24px;
 	color: #fff;
-	font-family: MyriadPro-Regular;
+	font-family: MyriadPro-Regular, sans-serif;
 	font-weight: normal;
 	padding: 7%;
 }
@@ -3037,7 +3077,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'MyriadPro-Regular', sans-serif;
+  font-family: MyriadPro-Regular, sans-serif, sans-serif;
   font-weight: 400;
   color: #FF7200;
   margin: 0;
@@ -3705,7 +3745,7 @@ main {
   color: #ff7200;
   font-size: 36px;
   font-weight: normal;
-  font-family: MyriadPro-Regular;
+  font-family: MyriadPro-Regular, sans-serif;
 }
 .bg-primary * {
   color: #fff;
@@ -7663,7 +7703,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (width: 768px){
 	.navbar-default .navbar-nav > li > a {
   color: #ff7200;
-  font-family: "MyriadPro-Regular";
+  font-family: MyriadPro-Regular, sans-serif;
   font-size: 13px !important;
 }	
 }
@@ -7704,11 +7744,11 @@ main {
   text-transform: uppercase;
 }
 header .right-part {
-  position: static;
-  right: 0.833333rem;
+  position: relative;
+  right: -2%;
   text-align: left;
-  top: -0.555556rem;
-  width: 8.167rem;
+  top: 0.444rem;
+  width: 27%;
 }
 }
 @media (max-width: 767px) {
@@ -7730,7 +7770,7 @@ header .right-part {
 }
 .navbar-default .navbar-nav > li > a {
   color: #ff7200;
-  font-family: "MyriadPro-Regular";
+  font-family: MyriadPro-Regular, sans-serif;
   font-size: 18px;
 }
 .navbar-default .navbar-nav > li > a:hover{
@@ -7806,6 +7846,22 @@ header .right-part {
 }
 .additional-members-wrapper {
   min-height: 65px;
+  clear: both;
+}
+.inline-list {
+    margin-top: 4%;
+    /*margin-left: 12px;*/
+}
+.cms-body-text p img {
+  float: none !important;
+  margin: 10px auto !important;
+}
+.footer_text {
+  color: #ffffff;
+  float: none !important;
+  margin: 0;
+  padding: 0;
+  text-align: center !important;
 }
 .btn-default{
 	display: block;	
@@ -10950,17 +11006,21 @@ width: 29px;
  
   z-index: -1;
 }
+
+
 .container-wide .btn.btn-primary.btn-md {
   border-radius: 17px;
   bottom: 2%;
-  font-family: "MyriadPro-Regular";
-  font-size: 29px;
+  font-family: MyriadPro-Regular, sans-serif;
+  font-size: 26px;
   margin-right: -125px;
-  max-width: 250px;
+  max-width: 270px;
   padding: 19px;
   position: absolute;
   right: 66%;
 }
+
+
 .icon.icon-primary.fb {
   background: rgba(0, 0, 0, 0) url("../images/fb_like.png") no-repeat scroll center top;
   border: medium none;
@@ -10971,6 +11031,7 @@ width: 29px;
   padding-top: 12px;
   top: 270px;
   width: 130px;
+  background-size: 100%;
 }
 .icon.icon-primary.play {
   background: rgba(0, 0, 0, 0) url("../images/play-btn.png") no-repeat scroll center top;

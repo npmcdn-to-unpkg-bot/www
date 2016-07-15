@@ -849,7 +849,7 @@ function review_form_data(){
     jQuery('#field_business_forums_data').text(field_business_forums_data);
     
     var field_tourism_data = jQuery('#field_tourism option:selected').text();
-    if(jQuery('#field_cruise').val() == ''){
+    if(jQuery('#field_tourism').val() == ''){
         field_tourism_data = 'Not Applicable';
     }
     jQuery('#field_tourism_data').text(field_tourism_data);
