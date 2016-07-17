@@ -103,7 +103,7 @@
                                 </h5>
                             </div>     
                             <div class="col-sm-12 center-xs wow fadeInLeft animated">
-                            	<h5 class="form-heading" id="step1-form-heading">Member Profile</h5>
+                            	<h5 class="form-heading" id="step1-form-heading">Member Profile <span id="member_profile_data"></span></h5>
                             </div>
                             <div class="col-sm-6 center-xs wow fadeInLeft animated"><div class="form-group required">
                            	 <?php print render($form['field_membership_type']);?>
@@ -649,6 +649,16 @@ function update_total_price(){
     var $total_price = 0.00;
 	var $membership_price = 0.00;
     changeFormState();
+	
+	 var field_membership_type = jQuery('#field_membership_type option:selected').text();
+	 if(field_membership_type == 'Select'){
+	 	field_membership_type = '';
+	 }
+	 else{
+	    field_membership_type = '- '+field_membership_type;
+	 }
+     jQuery('#member_profile_data').text(field_membership_type);
+	
 	/***********************************/
     // For Family //
 	/***********************************/

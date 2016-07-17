@@ -317,7 +317,7 @@ global $base_url;
                           }(document, 'script', 'facebook-jssdk'));</script>
                         
                           <!-- Your embedded video player code -->
-                          <div class="fb-video" data-href="https://facebook.com/nabc2017/videos/266075003753300/" data-width="560" data-show-text="false">
+                          <div class="fb-video" data-href="https://web.facebook.com/nabc2017/videos/268415790185888/" data-width="674" data-show-text="false">
                           </div>
                       </div>
                      </div>
@@ -583,4 +583,6 @@ global $base_url;
         .jssora12r:hover { background-position: -195px -37px; }
         .jssora12l.jssora12ldn { background-position: -256px -37px; }
         .jssora12r.jssora12rdn { background-position: -315px -37px; }
+		
+		.fb_iframe_widget{top:4px;}
     </style>    
