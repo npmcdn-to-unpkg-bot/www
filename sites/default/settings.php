@@ -216,7 +216,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'nabc_drupal',
+      'database' => 'nabc_registration',
       'username' => 'nabc_drupal_user',
       'password' => 'Drup@lP@ss',
       'host' => 'localhost',
