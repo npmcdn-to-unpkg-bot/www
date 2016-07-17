@@ -172,7 +172,7 @@
     <div class="heading-registration">
       <h4><span class="blacktext">Complete Registration to</span> #indulge <span class="blacktext">@ NABC2017</span></h4>
     </div>
-    <div class="col-sm-12 text-right"><?php /*<a href="<?php print url('book-hotel'); ?>">Book Hotel &nbsp;<i class="fa fa-bed"></i></a>*/?> <a href="<?php print url('member/logout'); ?>">Logout</a></div>
+    <div class="col-sm-12 text-right"><?php /*<a href="<?php print url('book-hotel'); ?>">Book Hotel &nbsp;<i class="fa fa-bed"></i></a>*/?><a href="<?php print url('registration-overview'); ?>" target="_blank">Registration Overview</a> <a href="<?php print url('member/logout'); ?>">Logout</a></div>
     <form class="register_frm form-horizontal" enctype="multipart/form-data" action="<?php print $form['#action'];?>" method="<?php print $form['#method'];?>" id="<?php print $form['#id'];?>" accept-charset="UTF-8">
       <div class="step" id="step1">
         <div class="col-sm-12 center-xs wow fadeInLeft animated">

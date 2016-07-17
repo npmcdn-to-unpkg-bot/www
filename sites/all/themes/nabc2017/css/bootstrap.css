@@ -60,6 +60,24 @@ div#breadcrumb {
   position: relative;
   width: 100%;
 }
+.program-business-forum .info-header h2.text-center {
+  background: #ff7200 none repeat scroll 0 0;
+  border-radius: 12px;
+  clear: right;
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 67%;
+}
+/*.program-business-forum h2.text-center {
+  background: #ff7200 none repeat scroll 0 0;
+  border-radius: 13px;
+  color: #fff;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  width: 85%;
+}*/
 div.messages{
 	text-align: center;	
 }
@@ -197,6 +215,7 @@ div.messages{
 }
 .info-header > img {
   float: left;
+  width: 30%;
 }
 .owl-carousel.sponsor .owl-stage {
     height: 250px;
@@ -1976,6 +1995,15 @@ th {
   padding: 0.5em 3px !important;
   text-decoration: none;
 }
+.program-business-forum .info-header h2.text-center{
+	width: 98%;	
+}
+.info-header {
+  border-bottom: 2px solid;
+  margin-bottom: 15px;
+  padding: 0 0 15px;
+  text-align: center;
+}
 .admin-menu-site-nabc2017-com.admin-menu-processed.admin-menu-position-fixed {
   left: auto !important;
   position: absolute !important;
@@ -1987,7 +2015,11 @@ th {
 #user-login input[type="text"], #user-login input[type="password"] {
   width: 100%;
 }
-
+.plan-list > li {
+  float: left;
+  margin: 10px 1%;
+  width: 98%;
+}
 .user-login form input[type="text"], .user-login form input[type="password"] {
   width: 100%;
 }
@@ -7745,10 +7777,10 @@ main {
 }
 header .right-part {
   position: relative;
-  right: -2%;
+  right: -13px;
   text-align: left;
   top: 0.444rem;
-  width: 27%;
+  width: 126px;
 }
 }
 @media (max-width: 767px) {
