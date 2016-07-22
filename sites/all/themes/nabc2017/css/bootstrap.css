@@ -16,6 +16,8 @@ body {
   margin: 10px 15px !important;*/
   padding:5px;
 }
+
+.cms-body-text em{ font-style:italic;}
 swiper-container {
 	min-height: 510px;	
 }
@@ -84,7 +86,7 @@ div.messages{
 .cms-body-text .banner-image-cms-page img {
   clear: left;
   float: left;
-  margin: 6px;
+  margin: 18px;
 }
 .overlay_body{ opacity: 0.75;  background: #ffffff;  width: 100% !important;  height: 100% !important; z-index: 1031;  top: 0;  left: 0;  position:  fixed !important; }
 .overlay-logo{
@@ -188,6 +190,14 @@ div.messages{
 
 .col-sm-5.center-xs.sponsor-img {
   padding: 0 4% !important;
+}
+
+.business-sponsor-options {
+    padding-top: 10px;
+}
+
+.business-sponsor-options .sponsor-option-text{
+	font-size:14px;
 }
 .business-forum-sponsor > h2, .business-sponsor-options > h2 {
   border-bottom: 2px solid #999;
@@ -667,7 +677,7 @@ th {
 
 .banner-image-cms-page {
   /*float: left;*/
-  width: 45% !important;
+  width: 100% !important;
 }
 .registration-overview .banner-image-cms-page, .sponsor-registration-overview .banner-image-cms-page{
 	width: 100% !important;	
@@ -2044,7 +2054,7 @@ th {
 .cms-body-text img {
   clear: left;
   float: left;
- 	margin: 10px auto;
+  margin: 0px !important;
   width: 100%;
 }
 .banner-image-cms-page {
