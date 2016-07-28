@@ -195,12 +195,9 @@ global $base_url;
                         <div class="hovereffect">
                             <img class="img-responsive" src="<?php print $base_url.'/'.path_to_theme();?>/images/mosice2.jpg" alt="">
                             <div class="overlay">
-                                 <h2>Business Plan Writing Competition</h2>
                                <h2>IoT</h2>
                                <h2>Women in leadership</h2>
-                               <h2>Healthcare and Biotech</h2>
                                <h2>Renewable energy</h2>
-                               <h2>Financial planning</h2>
                                <h2>Careers and Education planning</h2>
                                <h2>Entrepreneurship</h2>
                                  <a class="info" href="<?php print url('program/business-forum');?>">View More</a>
