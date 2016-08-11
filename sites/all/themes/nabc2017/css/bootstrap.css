@@ -192,6 +192,10 @@ div.messages{
   padding: 0 4% !important;
 }
 
+.business-forum-sponsor img {
+    padding: 5px;
+}
+
 .business-sponsor-options {
     padding-top: 10px;
 }
