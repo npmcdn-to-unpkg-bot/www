@@ -175,7 +175,10 @@ global $base_url;
         <div class="col-sm-5 center-xs wow fadeInLeft animated sponsor-img">
           <div class="business-forum-sponsor">
             <h2>Sponsors</h2>
-            <img src="<?php print $base_url.'/'.path_to_theme();?>/images/sponsor-logo/accenture_logo.png" /> <img src="<?php print $base_url.'/'.path_to_theme();?>/images/sponsor-logo/schneider_electric.png" /></div>
+            <img src="<?php print $base_url.'/'.path_to_theme();?>/images/sponsor-logo/accenture_logo.png" />
+            <div style="clear:both;"></div>
+            <div class="line-separator">&nbsp;</div>
+            <img src="<?php print $base_url.'/'.path_to_theme();?>/images/sponsor-logo/schneider_electric.png" /></div>
           <div class="business-sponsor-options">
             <h2>Sponsor Options</h2>
             <div class="sponsor-option-text">Sponsorship Packages (DIAMOND / GOLD / SILVER / BRONZE) for Business Forum 2017 are designed to reach out and get the mindshare of thousands of NABC attendees: Indo-American / Bangladeshi-Americans professionals and entrepreneurs from Silicon Valley, rest of USA/Canada and business leaders from India and Bangladesh.</div>

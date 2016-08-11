@@ -10,6 +10,13 @@ html {
 body {
   margin: 0;
 }
+
+.line-separator{
+height:1px;
+background:#717171;
+border-bottom:1px solid #313030;
+}
+
 .cms-body-text p img {
   /*clear: none;
   float: none;
@@ -1989,8 +1996,15 @@ th {
 .resp-tab-content-active {
   display: block;
 }
-
+.line-separator {
+    margin: 30px 0;
+}
 @media (max-width: 767px) {
+
+.line-separator {
+    margin: 30px 0;
+}
+
   .resp-accordion {
     display: block;
   }
